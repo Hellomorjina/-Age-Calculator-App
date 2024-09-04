@@ -68,7 +68,7 @@
 #result span{
      color: #ffe600;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:400px) {
   .calculator{
     width:50%;
     max-width: 500px;
