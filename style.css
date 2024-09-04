@@ -68,16 +68,17 @@
 #result span{
      color: #ffe600;
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:600px) {
   .calculator{
     width:100%;
-    max-width: 500px;
+    max-width: 600px;
     margin-left:5% ;
     margin-top:5%;
     margin:0 auto;
   }
   .calculator h1{
     font-size:30px;
+    padding:20px;
   }
   .input_box{
     display:block;
@@ -89,6 +90,7 @@
     margin-right:10px;
     padding:18px 30px;
     font-size:18px;
+    width:100%;
   }
   .input_box input::-webkit-calendar-picker-indicator{
     background-size: 20px;
